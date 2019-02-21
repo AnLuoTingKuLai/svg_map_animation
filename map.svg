@@ -5482,4 +5482,74 @@
             </g>
         </g>
     </g>
+    <!-- // 动画组 -->
+    <defs>
+      <pattern id="grid" width="1" height="1" patternUnits="objextBoundingBox">
+          <circle cx="15" cy="15" r="7" fill="#e50250">
+            <!-- // 动画 -->
+            <animate attributeName="r" attributeType="XML" values="7;11;7" begin="0.3" dur="3.5" calcMode="paced" repeatCount="indefinite" />
+          </circle>
+          <circle cx="15" cy="15"  class="dd" r="4" fill="#e50250">
+            <!-- // 动画 -->
+              <animate attributeName="r" attributeType="XML"  values="4;8;4" begin="0.3" dur="3.5" calcMode="paced" repeatCount="indefinite" />
+          </circle>
+          <style>
+            .dd {
+              stroke: #fff;
+              stroke-width: 3px;
+            }
+          </style>
+      </pattern>
+    </defs>
+    <!-- // 标点 -->
+    <g>
+      <g  transform="translate(450, 160)" >
+        <rect width="30" height="30" fill="url(#grid)"/>
+      </g>
+      <g>
+        <rect x="880" y="160"  width="30" height="30" fill="url(#grid)"/>
+      </g>
+      <g  transform="translate(990, 400)" >
+        <rect width="30" height="30" fill="url(#grid)"/>
+      </g>
+      <g  transform="translate(1400, 220)" >
+        <rect width="30" height="30" fill="url(#grid)"/>
+      </g>
+      <g  transform="translate(1470, 235)" >
+        <rect width="30" height="30" fill="url(#grid)"/>
+      </g>
+      <g  transform="translate(1370, 240)" >
+        <rect width="30" height="30" fill="url(#grid)"/>
+      </g>
+      <g  transform="translate(1410, 250)" >
+        <rect width="30" height="30" fill="url(#grid)"/>
+      </g>
+      <g  transform="translate(1410, 250)" >
+        <rect width="30" height="30" fill="url(#grid)"/>
+      </g>
+      <g  transform="translate(1350, 260)" >
+        <rect width="30" height="30" fill="url(#grid)"/>
+      </g>
+      <g  transform="translate(1320, 250)" >
+        <rect width="30" height="30" fill="url(#grid)"/>
+      </g>
+      <g  transform="translate(1330, 250)" >
+        <rect width="30" height="30" fill="url(#grid)"/>
+      </g>
+      <g  transform="translate(1340, 280)" >
+        <rect width="30" height="30" fill="url(#grid)"/>
+      </g>
+      <g  transform="translate(1400, 290)" >
+        <rect width="30" height="30" fill="url(#grid)"/>
+      </g>
+      <g  transform="translate(1280, 320)" >
+        <rect width="30" height="30" fill="url(#grid)"/>
+      </g>
+      <g  transform="translate(1330, 330)" >
+        <rect width="30" height="30" fill="url(#grid)"/>
+      </g>
+      <g  transform="translate(1560, 560)" >
+        <rect width="30" height="30" fill="url(#grid)"/>
+      </g>
+    </g>
 </svg>
